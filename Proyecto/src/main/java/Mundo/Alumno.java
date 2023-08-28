@@ -75,9 +75,9 @@ public class Alumno {
     public void setCelular(String celular) {
         this.celular = celular;
     }
-    
-    
-    
-    
-    
+  
+@Override
+    public String toString() {
+        return "Cedula: " + cedula +"\nNombre: " + nombre +"\nApellido: " + apellido +"\nSemestre: " + semestre +"\nCorreo: " + correo +"\nCelular: " + celular;
+    }
 }
